@@ -38,7 +38,7 @@ Create the OMC instance and obtain the IP address as a first step, since port op
 1. From Gateway to [OMC instance](https://<tenanid>.itom.management.us2.oraclecloud.com/*): permit outbound communication over (https/443) - directly or via proxy
 	- IP address of the OMC instance can be determined by looking up hostname from the administraJon page of OMC console (`Administration` -> `Agents` ->`Download` Tab) and then simple OS level command such as nslookup to find the IP address associated with the hostname of the OMC instance. 
 
-2. Cloud Agent to Gateway: permit outbound communication over https/(3872,1830-1839)
+2. Cloud Agent to Gateway: permit outbound communication over https/(4459 to 4479)
 	- These ports need to be opened only internally and not towards public internet
 
 #### Without Gateway
